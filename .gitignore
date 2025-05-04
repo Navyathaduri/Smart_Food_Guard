@@ -1,0 +1,26 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+
+# Temporary and upload folders
+temp/
+uploads/
+dataset/
+
+# Machine learning model files (add formats as needed)
+*.h5
+
+*.pkl
+*.pt
+*.joblib
+*.onnx
+*.sav
+
+# Ignore .keras files
+*.keras
+
+# Track .keras files
+!*.keras
+
+# Environment variables
+.env

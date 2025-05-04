@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SmartFoodGuard</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ < <link href="styles.css" rel="stylesheet"> <!-- Linked external CSS -->>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">SmartFoodGuard</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero-section">
+    <h1>Welcome to SmartFoodGuard</h1>
+    <p>Your intelligent partner for food safety, freshness, and quality detection.</p>
+  </section>
+
+  <section id="about" class="about-section container">
+    <div class="custom-about-layout">
+      <div class="about-card card-top-center">
+        <h4>Our Mission</h4>
+        <p>To empower consumers and businesses to understand food better and make healthier, sustainable decisions using artificial intelligence.</p>
+      </div>
+      <div class="about-card card-bottom-left">
+        <h4>What We Offer</h4>
+        <p>AI-powered solutions that detect ripeness, spoilage, nutritional value, and shelf life — accessible through a user-friendly platform.</p>
+      </div>
+      <div class="about-card card-bottom-right">
+        <h4>Why It Matters</h4>
+        <p>Food waste, nutrition, and safety are key issues today. SmartFoodGuard provides tools to reduce waste and improve dietary decisions.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="features" class="features-section container">
+    <div class="row text-center mb-4">
+      <h2 class="text-primary">Features</h2>
+      <p class="text-muted">Tap to explore each powerful feature</p>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card" onclick="window.location.href='nutrition.html';">
+          <div class="feature-icon">🥗</div>
+          <h5>Nutrition Estimation</h5>
+          <p>Analyze nutritional values of your meals using image-based AI.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card" onclick="window.location.href='shelflife.html';">
+          <div class="feature-icon">🕒</div>
+          <h5>Shelf Life Prediction</h5>
+          <p>Predict how long your food will stay fresh based on current condition.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card" onclick="window.location.href='ripeness.html';">
+          <div class="feature-icon">🍎</div>
+          <h5>Ripeness Detection</h5>
+          <p>Check the ripeness stage of your fruits to consume at the right time.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="feature-card" onclick="window.location.href='spoilage.html';">
+          <div class="feature-icon">🧫</div>
+          <h5>Spoilage Detection</h5>
+          <p>Identify spoiled food items before they impact your health.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact" class="footer">
+    <p>&copy; 2025 SmartFoodGuard. Built with care, innovation, and purpose.</p>
+    <p>Contact us at <a href="mailto:contact@smartfoodguard.com">contact@smartfoodguard.com</a></p>
+    <p>Follow us: <a href="#">LinkedIn</a> | <a href="#">GitHub</a> | <a href="#">Twitter</a></p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="scripts.js"></script> <!-- Linked external JS -->
+</body>
+</html>
