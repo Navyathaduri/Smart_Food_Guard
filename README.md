@@ -35,4 +35,4 @@ Backend: Python (Flask)
 
 Machine Learning: TensorFlow / Keras, Jupyter Notebooks
 
-Data Handling: CSV, JSON
+Data Handling: CSV, JSON.
